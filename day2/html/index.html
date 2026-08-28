@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>JavaScript Data Types - E-Commerce</title>
+
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🛒 My Shopping Cart</h1>
+
+      <div class="card">
+        <h2 id="productName"></h2>
+
+        <p>Price: ₹<span id="price"></span></p>
+
+        <p>
+          Quantity:
+          <span id="quantity"></span>
+        </p>
+
+        <p>
+          In Stock:
+          <span id="stockStatus"></span>
+        </p>
+
+        <p>
+          Customer:
+          <span id="customerName"></span>
+        </p>
+
+        <p>
+          Category:
+          <span id="category"></span>
+        </p>
+
+        <p>Total: ₹<span id="total"></span></p>
+
+        <p id="message"></p>
+      </div>
+
+      <button onclick="placeOrder()">Place Order</button>
+    </div>
+    <!-- ctrl + / -->
+    <script src="../js/cart.js"></script>
+    <!-- <script src="../js/typeconversion.js"></script> -->
+  </body>
+</html>
