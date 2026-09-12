@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Local Storage & Session Storage</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>E-Commerce Website</h1>
+
+      <!-- Theme -->
+      <section class="card">
+        <h2>Theme</h2>
+        <button id="darkModeBtn">Enable Dark Mode</button>
+        <button id="lightModeBtn">Enable Light Mode</button>
+      </section>
+
+      <!-- Shopping Cart -->
+      <section class="card">
+        <h2>Shopping Cart</h2>
+
+        <button onclick="addToCart('Laptop')">Add Laptop</button>
+
+        <button onclick="addToCart('Mobile')">Add Mobile</button>
+
+        <button onclick="clearCart()">Clear Cart</button>
+
+        <p id="cart">Cart is empty</p>
+      </section>
+
+      <!-- Checkout -->
+      <section class="card">
+        <h2>Checkout</h2>
+
+        <button onclick="nextStep()">Next Checkout Step</button>
+
+        <button onclick="resetCheckout()">Reset Checkout</button>
+
+        <p id="checkoutStep">Current checkout step: 0</p>
+      </section>
+    </div>
+
+    <script src="../js/ekartstorage.js"></script>
+  </body>
+</html>

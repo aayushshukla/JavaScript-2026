@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
